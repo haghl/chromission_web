@@ -19,7 +19,7 @@
     <title>Chromission · 매일 한 컷, 새로운 시선</title>
     <meta
       name="description"
-      content="매일 새로운 사진 미션을 받고, 9칸 그리드를 채워 그날의 분위기를 한 보드로 남기는 데일리 사진 미션 앱 Chromission(크로미션). 색상·사물·장소·브랜드·타이포그래피 다섯 카테고리."
+      content="매일 새로운 사진 미션을 받아 9장의 사진으로 그날을 기록하고, 나만의 다이어리로 꾸미는 데일리 포토 앱 Chromission(크로미션). 색상·사물·장소·브랜드·타이포그래피 다섯 카테고리, 폴라로이드 프린터처럼 뽑혀 나오는 미션 카드."
     />
     <link rel="canonical" href="https://chromission.com/" />
     <meta name="robots" content="index, follow" />
@@ -31,16 +31,19 @@
     <meta property="og:title" content="Chromission · 매일 한 컷, 새로운 시선" />
     <meta
       property="og:description"
-      content="매일 새로운 사진 미션을 받고, 9칸 그리드를 채워 그날의 분위기를 한 보드로 남기는 데일리 사진 미션 앱."
+      content="매일 새로운 사진 미션을 받아 9장의 사진으로 그날을 기록하고, 나만의 다이어리로 꾸미는 데일리 포토 앱."
     />
     <meta property="og:url" content="https://chromission.com/" />
     <meta property="og:image" content="https://chromission.com/og-image.png" />
     <meta property="og:locale" content="ko_KR" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Chromission · 매일 한 컷, 새로운 시선" />
+    <meta
+      name="twitter:title"
+      content="Chromission · 매일 한 컷, 새로운 시선"
+    />
     <meta
       name="twitter:description"
-      content="매일 새로운 사진 미션을 받고, 9칸 그리드를 채워 그날의 분위기를 한 보드로 남기는 데일리 사진 미션 앱."
+      content="매일 새로운 사진 미션을 받아 9장의 사진으로 그날을 기록하고, 나만의 다이어리로 꾸미는 데일리 포토 앱."
     />
     <meta name="twitter:image" content="https://chromission.com/og-image.png" />
     <link rel="stylesheet" href="styles.css" />
@@ -67,31 +70,94 @@
         <span class="eyebrow">Daily Photo Mission</span>
         <h1 id="hero-title">매일 한 컷,<br />새로운 시선으로 세상을 담다.</h1>
         <p class="lead">
-          오늘의 미션을 받고, 9칸 그리드를 채우세요. 평범했던 출퇴근길도,
-          익숙했던 동네도 미션 한 줄에 새로운 피사체가 됩니다.
+          매일 새로운 사진 미션을 받아 9장의 사진으로 그날을 기록하고, 나만의
+          다이어리로 꾸미는 데일리 포토 앱. 평범했던 출퇴근길도, 익숙했던 동네도
+          미션 한 줄에 새로운 피사체가 됩니다.
         </p>
 
-        <div class="hero-card" role="img" aria-label="9칸 그리드 미리보기">
-          <span class="grid-cell" aria-hidden="true">🎨</span>
-          <span class="grid-cell" aria-hidden="true">🍕</span>
-          <span class="grid-cell" aria-hidden="true">📍</span>
-          <span class="grid-cell" aria-hidden="true"></span>
-          <span class="grid-cell" aria-hidden="true">🏷️</span>
-          <span class="grid-cell" aria-hidden="true"></span>
-          <span class="grid-cell" aria-hidden="true">✏️</span>
-          <span class="grid-cell" aria-hidden="true"></span>
-          <span class="grid-cell" aria-hidden="true">✨</span>
+        <div class="hero-graphic">
+          <img
+            src="/hero-graphic.png"
+            alt="Chromission · 사진은 찍고 싶은데, 뭘 찍어야 할지 모르겠다면? 매일 새로운 미션으로 일상을 더 재밌게 기록해보세요."
+            loading="eager"
+          />
         </div>
+      </section>
+
+      <section aria-labelledby="screens-title">
+        <h2 id="screens-title">앱 미리보기</h2>
+        <p>
+          로그인부터 매일 새로운 미션, 자유로운 편집, 그리고 한 장의 그리드까지
+          — 크로미션의 흐름을 미리 만나보세요.
+        </p>
+        <ul class="screenshot-gallery" aria-label="앱 스크린샷">
+          <li class="screenshot-card">
+            <img
+              src="/screen-01-intro.png"
+              alt="셔터를 누를 이유, Chromission에서 찾으세요"
+              loading="lazy"
+            />
+            <div class="screenshot-caption">셔터를 누를 이유</div>
+          </li>
+          <li class="screenshot-card">
+            <img
+              src="/screen-02-mission.png"
+              alt="매일 바뀌는 랜덤 포토 미션 - 폴라로이드 프린터처럼 뽑혀나오는 미션 카드"
+              loading="lazy"
+            />
+            <div class="screenshot-caption">매일 바뀌는 랜덤 미션</div>
+          </li>
+          <li class="screenshot-card">
+            <img
+              src="/screen-03-edit.png"
+              alt="자유롭게 편집하거나, 한 장의 그리드로 정리하거나"
+              loading="lazy"
+            />
+            <div class="screenshot-caption">자유로운 편집</div>
+          </li>
+          <li class="screenshot-card">
+            <img
+              src="/screen-04-grid.png"
+              alt="오늘의 순간을 가장 재밌게 기록하는 방법 - 완성된 9칸 그리드"
+              loading="lazy"
+            />
+            <div class="screenshot-caption">오늘의 한 장</div>
+          </li>
+        </ul>
       </section>
 
       <section aria-labelledby="why-title">
         <h2 id="why-title">왜 Chromission인가요?</h2>
         <p>
-          카메라가 취미인데 막상 무엇을 찍어야 할지 막막했던 적이 있으신가요?
-          크로미션은 매일 한 가지 주제를 던져주는 사진 미션 앱입니다. 평범한
-          피사체도 새로운 시각으로 바라보게 되고, 하루의 사진 조각을 모아 그날의
-          분위기를 한 장의 보드로 남깁니다.
+          카메라 취미는 있지만 막상 무엇을 찍어야 할지 막막했던 적이 있으신가요?
+          크로미션은 그 망설이는 순간을 위해 만들어졌습니다.
         </p>
+        <ul class="feature-list">
+          <li class="feature-card">
+            <span class="feature-icon" aria-hidden="true">🤔</span>
+            <h3>사진 찍을 때 고민 해결</h3>
+            <p>
+              '무엇을 찍을지' 몰라 셔터를 망설이는 순간을 매일 새로운 주제로
+              풀어냅니다.
+            </p>
+          </li>
+          <li class="feature-card">
+            <span class="feature-icon" aria-hidden="true">🎯</span>
+            <h3>촬영에 목적 부여</h3>
+            <p>
+              매일 주어지는 '미션'을 통해 평범한 피사체도 새로운 시각으로
+              바라보게 되고, 촬영 자체가 게임처럼 즐거워집니다.
+            </p>
+          </li>
+          <li class="feature-card">
+            <span class="feature-icon" aria-hidden="true">📔</span>
+            <h3>추억의 시각화</h3>
+            <p>
+              하루 동안 모은 사진 조각을 한 보드로 완성, 그날의 분위기와 기억을
+              입체적으로 복기할 수 있는 아카이브가 됩니다.
+            </p>
+          </li>
+        </ul>
       </section>
 
       <section aria-labelledby="features-title">
@@ -101,9 +167,10 @@
             <span class="feature-icon" aria-hidden="true">🎯</span>
             <h3>데일리 미션</h3>
             <p>
-              매일 색상, 사물, 장소, 브랜드, 글자(타이포그래피) 등 다양한
-              주제를 랜덤으로 받습니다. 마음에 들지 않으면 광고 시청 후 1회
-              다시 뽑을 수 있어요.
+              매일 색상, 사물, 장소, 브랜드, 글자(타이포그래피) 등 다양한 주제를
+              랜덤으로 받습니다. 폴라로이드 프린터처럼 미션 카드가 "뽑혀 나오는"
+              시각 메타포로, 매일 펼쳐보는 재미가 있어요. 마음에 들지 않으면
+              광고 시청 후 1회 다시 뽑을 수 있어요.
             </p>
             <div class="mission-tags" aria-label="미션 카테고리 예시">
               <span class="tag">🎨 Color</span>
@@ -142,9 +209,7 @@
 
       <section aria-labelledby="onboarding-title">
         <h2 id="onboarding-title">앱을 시작하면</h2>
-        <p>
-          처음 만나는 5단계로, 나만의 사진 미션 환경을 빠르게 세팅합니다.
-        </p>
+        <p>처음 만나는 5단계로, 나만의 사진 미션 환경을 빠르게 세팅합니다.</p>
         <ol class="step-list">
           <li class="step">
             <span class="step-num" aria-hidden="true">1</span>
@@ -176,8 +241,8 @@
             <div>
               <h3>취향 선택</h3>
               <p>
-                좋아하는 사진 무드와 관심 카테고리를 골라두면 미션 추천이 더
-                잘 맞아 옵니다. (건너뛰기 가능)
+                좋아하는 사진 무드와 관심 카테고리를 골라두면 미션 추천이 더 잘
+                맞아 옵니다. (건너뛰기 가능)
               </p>
             </div>
           </li>
@@ -221,8 +286,9 @@
           <li class="feature-card">
             <h3>MY POST</h3>
             <p>
-              완성된 그리드는 마이페이지의 MY POST에 일자별로 차곡차곡
-              쌓입니다.
+              완성된 그리드는 마이페이지의 MY POST에 일자별로 차곡차곡 쌓입니다.
+              진행 중 포스트는 <strong>IN PROGRESS</strong> 영역에, 완성된
+              포스트는 그리드 뷰에 분리되어 한눈에 확인할 수 있어요.
             </p>
           </li>
         </ul>
@@ -236,8 +302,8 @@
             <h3>다른 사람의 그리드 보기</h3>
             <p>
               홈의 VIEW OTHERS' MISSIONS에서 같은 날 다른 사용자의 보드를
-              둘러봅니다. 깔끔한 감상을 위해 댓글은 두지 않고 좋아요만 제공할
-              예정이에요.
+              둘러봅니다. 사진 퀄리티와 감상에 집중할 수 있도록 댓글은 제공하지
+              않고 '좋아요'만 열어두어 깔끔한 분위기를 유지할 예정이에요.
             </p>
           </li>
           <li class="feature-card">
@@ -247,14 +313,15 @@
               벚꽃 시즌, 연말 등 기간 한정 테마 미션과 추첨 보상이 등장합니다.
             </p>
           </li>
-          <li class="feature-card">
+          <!-- <li class="feature-card">
             <span class="feature-icon" aria-hidden="true">🤝</span>
             <h3>브랜드 / 지자체 미션</h3>
             <p>
-              관련 브랜드·지자체와 협업한 미션은 약관에 따라 광고임을 명확히
-              표시합니다.
+              카메라 브랜드·지자체와 협업한 미션, 신제품 런칭 프로모션, 지역
+              관광 홍보 등을 미션으로 만나볼 수 있어요. 광고 미션은 약관에 따라
+              명확히 표시됩니다.
             </p>
-          </li>
+          </li> -->
         </ul>
       </section>
 
@@ -266,11 +333,8 @@
         </p>
         <ul class="feature-list" style="grid-template-columns: 1fr">
           <li class="feature-card">
-            <h3>카메라 · 마이크</h3>
-            <p>
-              미션 사진 촬영을 위해 사용됩니다. 마이크는 동영상 촬영을 지원하기
-              위한 선택 권한입니다.
-            </p>
+            <h3>카메라</h3>
+            <p>미션 사진 촬영을 위해 사용됩니다.</p>
           </li>
           <li class="feature-card">
             <h3>사진 · 미디어</h3>
@@ -279,8 +343,8 @@
           <li class="feature-card">
             <h3>알림(선택)</h3>
             <p>
-              새로운 미션 도착, 마감 시간 임박 등 사진 미션 흐름과 관련된
-              알림을 위해 사용됩니다. 거부해도 앱 사용에는 영향이 없어요.
+              새로운 미션 도착, 마감 시간 임박 등 사진 미션 흐름과 관련된 알림을
+              위해 사용됩니다. 거부해도 앱 사용에는 영향이 없어요.
             </p>
           </li>
           <li class="feature-card">
@@ -311,7 +375,9 @@
             <p>어떤 정보를 어떻게 다루고, 언제 파기하는지 안내합니다.</p>
           </li>
           <li class="feature-card">
-            <h3><a href="marketing-consent.html">마케팅 수신 동의 안내 →</a></h3>
+            <h3>
+              <a href="marketing-consent.html">마케팅 수신 동의 안내 →</a>
+            </h3>
             <p>
               이벤트·맞춤 미션 알림 수신에 대한 선택 동의 항목과 철회 방법을
               안내합니다.

@@ -133,18 +133,17 @@ button:focus-visible {
   letter-spacing: -0.01em;
 }
 .brand-mark {
-  width: 24px;
-  height: 24px;
-  border-radius: 8px;
-  background: conic-gradient(
-    from 210deg,
-    #ff7a59 0deg,
-    #ffd166 90deg,
-    #06d6a0 180deg,
-    #2f6bff 270deg,
-    #ff7a59 360deg
-  );
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  background: url('/logo.png') center / contain no-repeat;
   flex: none;
+}
+@media (prefers-color-scheme: dark) {
+  .brand-mark {
+    background-color: var(--bg-soft);
+    padding: 2px;
+  }
 }
 .site-nav {
   display: flex;
@@ -187,31 +186,71 @@ button:focus-visible {
   border-radius: 999px;
 }
 
-.hero-card {
+.hero-graphic {
   margin-top: 20px;
-  padding: 18px;
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+}
+.hero-graphic img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* 앱 스크린샷 미리보기 — 모바일은 가로 스크롤, 데스크탑은 그리드 */
+.screenshot-gallery {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 14px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 6px;
+  margin: 0 -18px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+.screenshot-gallery::-webkit-scrollbar {
+  display: none;
+}
+.screenshot-card {
+  flex: 0 0 240px;
+  scroll-snap-align: start;
   background: var(--bg-elev);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 6px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
-.grid-cell {
-  aspect-ratio: 1 / 1;
-  border-radius: var(--radius-sm);
-  background: var(--bg-soft);
-  border: 1px solid var(--border);
-  display: grid;
-  place-items: center;
-  font-size: 22px;
+.screenshot-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #fafafa;
 }
-.grid-cell:nth-child(1) { background: linear-gradient(135deg, #ffd1a8, #ff7a59); }
-.grid-cell:nth-child(2) { background: linear-gradient(135deg, #cde2ff, #5b8bff); }
-.grid-cell:nth-child(3) { background: linear-gradient(135deg, #d6f5e2, #06d6a0); }
-.grid-cell:nth-child(5) { background: linear-gradient(135deg, #fff3b5, #ffd166); }
-.grid-cell:nth-child(7) { background: linear-gradient(135deg, #e9d6ff, #b388ff); }
-.grid-cell:nth-child(9) { background: linear-gradient(135deg, #ffd6e0, #ff5d8f); }
+.screenshot-caption {
+  padding: 10px 12px 14px;
+  font-size: 14px;
+  color: var(--text-muted);
+  text-align: center;
+}
+@media (min-width: 640px) {
+  .screenshot-gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    overflow-x: visible;
+    margin: 0;
+    padding: 0;
+  }
+  .screenshot-card {
+    flex: none;
+  }
+}
 
 section {
   margin-top: 36px;
