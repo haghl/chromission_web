@@ -186,6 +186,69 @@ button:focus-visible {
   border-radius: 999px;
 }
 
+/* 앱 다운로드 배지 */
+.store-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+.store-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 16px 9px 14px;
+  border-radius: 10px;
+  background: #111418;
+  color: #fff;
+  border: 1px solid #111418;
+  min-width: 150px;
+}
+.store-badge:hover,
+.store-badge:focus-visible {
+  text-decoration: none;
+  background: #000;
+}
+@media (prefers-color-scheme: dark) {
+  .store-badge {
+    background: var(--bg-elev);
+    border-color: var(--border-strong);
+  }
+  .store-badge:hover,
+  .store-badge:focus-visible {
+    background: var(--bg-soft);
+  }
+}
+.store-badge-icon {
+  width: 24px;
+  height: 24px;
+  flex: none;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.store-badge:nth-of-type(1) .store-badge-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23ffffff'%3E%3Cpath d='M17.05 12.54c-.02-2.07 1.69-3.06 1.76-3.11-.96-1.4-2.45-1.59-2.98-1.61-1.27-.13-2.48.75-3.12.75-.64 0-1.64-.73-2.7-.71-1.39.02-2.67.81-3.38 2.05-1.44 2.5-.37 6.2 1.04 8.23.69.99 1.51 2.1 2.58 2.06 1.04-.04 1.43-.67 2.69-.67 1.25 0 1.61.67 2.7.65 1.12-.02 1.82-1 2.5-2 .79-1.15 1.11-2.27 1.13-2.32-.02-.01-2.17-.83-2.19-3.3zm-2.07-6.06c.56-.69.95-1.63.84-2.59-.81.03-1.81.54-2.4 1.22-.52.6-.98 1.57-.86 2.49.91.07 1.84-.46 2.42-1.12z'/%3E%3C/svg%3E");
+}
+.store-badge:nth-of-type(2) .store-badge-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%2300d2ff' d='M3.3 1.7C3.1 1.95 3 2.32 3 2.8v18.4c0 .48.1.85.3 1.1l.07.06L13.5 12.1v-.2L3.37 1.64z'/%3E%3Cpath fill='%23ffce00' d='M16.9 15.5l-3.4-3.4v-.2l3.4-3.4.08.04 4.02 2.28c1.15.65 1.15 1.72 0 2.38l-4.1 2.3z'/%3E%3Cpath fill='%23ff3a44' d='M16.98 15.46L13.5 12 3.3 22.3c.38.4 1 .45 1.72.05z'/%3E%3Cpath fill='%2300e676' d='M16.98 8.54L5.02 1.65C4.3 1.25 3.68 1.3 3.3 1.7L13.5 12z'/%3E%3C/svg%3E");
+}
+.store-badge-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+.store-badge-text small {
+  font-size: 10px;
+  letter-spacing: 0.02em;
+  opacity: 0.85;
+}
+.store-badge-text strong {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
 .hero-graphic {
   margin-top: 20px;
   border-radius: var(--radius);
