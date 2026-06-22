@@ -560,3 +560,30 @@ table.simple tbody td {
     font-size: 40px;
   }
 }
+
+/* ── Language toggle ───────────────────────────── */
+.lang-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.85rem;
+}
+.lang-toggle a {
+  padding: 2px 8px;
+  border-radius: 999px;
+  text-decoration: none;
+  color: inherit;
+  opacity: 0.6;
+}
+.lang-toggle a[aria-current="true"] {
+  opacity: 1;
+  font-weight: 700;
+  background: rgba(127, 127, 127, 0.15);
+}
+.lang-toggle .sep { opacity: 0.3; }
+/* 헤더 없는 doc 페이지용 상단 우측 정렬 */
+.doc .lang-toggle {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 8px;
+}

@@ -1,27 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://chromission.com/</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chromission.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://chromission.com/en/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chromission.com/en/" />
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://chromission.com/terms.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chromission.com/terms.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://chromission.com/en/terms.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chromission.com/en/terms.html" />
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://chromission.com/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chromission.com/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://chromission.com/en/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chromission.com/en/privacy.html" />
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://chromission.com/account-deletion.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chromission.com/account-deletion.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://chromission.com/en/account-deletion.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chromission.com/en/account-deletion.html" />
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://chromission.com/marketing-consent.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chromission.com/marketing-consent.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://chromission.com/en/marketing-consent.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chromission.com/en/marketing-consent.html" />
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://chromission.com/en/</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chromission.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://chromission.com/en/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chromission.com/en/" />
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://chromission.com/en/terms.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chromission.com/terms.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://chromission.com/en/terms.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chromission.com/en/terms.html" />
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://chromission.com/en/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chromission.com/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://chromission.com/en/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chromission.com/en/privacy.html" />
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://chromission.com/en/account-deletion.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chromission.com/account-deletion.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://chromission.com/en/account-deletion.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chromission.com/en/account-deletion.html" />
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://chromission.com/en/marketing-consent.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chromission.com/marketing-consent.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://chromission.com/en/marketing-consent.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chromission.com/en/marketing-consent.html" />
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>

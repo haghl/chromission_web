@@ -1,0 +1,24 @@
+# Chromission
+
+> Chromission (크로미션) is a daily photo-mission app. Each day you receive a random
+> mission across five categories — color, object, place, brand, typography — shoot up
+> to nine photos, and assemble them into a 9-cell grid diary. Free, iOS & Android.
+
+## Key facts
+- Category: daily photo / photo-challenge app (Lifestyle)
+- Platforms: iOS, Android
+- Price: free (rewarded-ad re-roll, no purchase required)
+- Languages: Korean, English
+- Operator: 원동규 — contact haghl980813@gmail.com
+
+## Pages
+- Home (KO): https://chromission.com/
+- Home (EN): https://chromission.com/en/
+- Privacy (KO): https://chromission.com/privacy.html
+- Privacy (EN): https://chromission.com/en/privacy.html
+- Terms (KO): https://chromission.com/terms.html
+- Terms (EN): https://chromission.com/en/terms.html
+
+## Get the app
+- App Store: https://apps.apple.com/app/id6758727566
+- Google Play: https://play.google.com/store/apps/details?id=com.photo.chromission
